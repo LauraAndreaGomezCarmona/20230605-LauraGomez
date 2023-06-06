@@ -1,0 +1,9 @@
+Comandos
+
+1. cd
+2. pwd
+3. touch
+4. mkdir
+5. mv
+6. ls
+7. rm
