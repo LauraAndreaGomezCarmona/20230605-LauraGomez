@@ -1,0 +1,50 @@
+  506  git clone https://github.com/LauraAndreaGomezCarmona/20230605-LauraGomez
+  507  code .
+  508  git init
+  509  cd 20230605-LauraGomez
+  510  git init
+  511  git branch -M main
+  512  git remote add origin https://github.com/LauraAndreaGomezCarmona/20230605-LauraGomez.git
+  514  touch comandos.txt main.js index.html
+  515  git status
+  516  git add .
+  517  git status
+  518  git commit -m "commit 01 de LauraGomez"
+  519  git remote add origin https://github.com/LauraAndreaGomezCarmona/20230605-LauraGomez.git
+  521  git push -u origin main
+  522  git checkout -b feature01
+  523  mkdir Terminal Hardware
+  524  cd Terminal
+  525  touch resumen.txt
+  527  cd ..
+  528  cd Hardware
+  529  touch resumen.txt
+  530  git status
+  531  git add .
+  532  git status
+  533  git commit -m "commit 02 de LauraGomez"
+  535  git status
+  536  git add .
+  537  git status
+  539  git push origin feature01
+  540  git status
+  541  git checkout -b feature02
+  542  git status
+  543  git add .
+  544  git status
+  545  git commit -m "commit 03 LauraGomez"
+  546  git push feature01 feature02
+  547  git push origin feature02
+  548  git status
+  549  git add .
+  550  git status
+  551  git commit -m "commit 03 de LauraGomez"
+  552  git push origin feature02
+  553  git checkout feature01
+  554  git add .
+  555  git commit -m "commit 02 de LauraGomez"
+  556  git push origin feature01
+  557  git chechout main
+  558  git checkout main
+  559  mv comandos.txt comandosUtilizados.txt
+  560  history
